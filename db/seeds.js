@@ -53,6 +53,7 @@ scoffLaw.beers.push(hooligan);
 
 var dirtyMike = new User({
 	username: "dirtyMikester",
+	password: 'password1',
 	bio: "dirty mike is the name!",
 	photo: "http://i.imgur.com/EykXDof.jpg",
 	beers: [doubleJeopardy],
@@ -61,6 +62,7 @@ var dirtyMike = new User({
 
 var ct = new User({
 	username: "Clarence",
+	password: 'password1',
 	bio: "I love web development!",
 	photo: "http://i.imgur.com/EykXDof.jpg",
 	beers: [hooligan],
